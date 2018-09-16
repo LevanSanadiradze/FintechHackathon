@@ -1,0 +1,166 @@
+body
+{
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+     width: 100%;
+     height: 100%;
+     max-width: 100%;
+     margin: 0px;
+     background-color: white !important;
+}
+.MainHeader
+{
+    margin-top: 15px;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size:20px;
+    cursor:pointer
+    width:50%;
+    color: white;
+    display: inline-block;
+}
+
+.sidenav
+ {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main 
+{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#Paragraph
+{
+padding-top: 80px;
+text-align: center;
+}
+.FirstHeader
+{
+ width: 100%;
+    font-size: 30px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+    border-radius: 2px;
+    color: white;
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    background-color: #f47920;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(189,189,189,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(189,189,189,1);
+box-shadow: 10px 10px 5px 0px rgba(189,189,189,1);
+}
+
+.Header{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #f47920;
+    margin-bottom: 30px;
+}
+.Footer
+{
+    position: absolute;
+    bottom: 0px;
+   	height: 100px;
+    width: 100%;
+    background-color: #6b6b6b;
+    margin-top: 40px;
+}
+#Quantity
+{
+    width: 90%;
+    padding: 12px 9px;
+    margin: 8px 0;
+    color: black !important; 
+    border: none;
+    border-bottom: 2px solid;
+}
+button
+{
+ display: inline-block;
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
+#CheckoutBTN
+{
+    text-align: center;
+    color: white;
+    display: block;
+    width: 125px;
+    height: 35px;
+    font-size: 15px;
+    display: inline-block;
+    float: right;
+    margin-top: 18px;
+    margin-right: 15px;
+}
+
+#Quantity
+{
+ margin-left: 25px;
+ font-size: 10px;
+}
+
+#QuantityBtn
+{
+ margin-right: 25px;
+ font-size: 10px;
+ 
+}
+ 
+tr.FirstHeader td
+{
+ width:100%;
+}
